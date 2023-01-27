@@ -154,6 +154,7 @@ class todoMain : AppCompatActivity() {
                     }
                 }
             }
+
             //그리기
             override fun onChildDraw(
                 c: Canvas,
@@ -238,7 +239,7 @@ class todoMain : AppCompatActivity() {
     }
     //키보드 숨기기
     private fun hideKeyboard(editText: EditText){
-        val manager: InputMethodManager =getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        val manager: InputMethodManager =getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
 
         //키보드 숨김
         manager.hideSoftInputFromWindow(editText.applicationWindowToken, 0)

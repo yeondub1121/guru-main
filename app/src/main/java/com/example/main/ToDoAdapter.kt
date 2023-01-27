@@ -21,7 +21,7 @@ class ToDoAdapter(): RecyclerView.Adapter<ToDoAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflater: LayoutInflater = LayoutInflater.from(parent.context)
 
-        val view: View = inflater.inflate(R.layout.list_item, parent, false)
+        val view: View = inflater.inflate(R.layout.task_item, parent, false)
 
         return ViewHolder(view)
     }
