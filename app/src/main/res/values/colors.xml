@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="snow">#FFFAF0</color>          //배경
+    <color name="mediumorchid">#BA55D3</color>  //보라계열
+    <color name="darkorchid">#9932CC</color>    //보라계열
+    <color name="blueviolet">#9400D3</color>    //보라계열
+    <color name="palevioletred">#D87093</color> //레드
+    <color name="lightpink">#FFB6C1</color>     //핑크계열
+    <color name="pink">#FFC0CB</color>          //핑크계열
+    <color name="mistyrose">#FFE4E1</color>     //연한핑크
 </resources>
