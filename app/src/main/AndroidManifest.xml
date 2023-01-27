@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Main">
+        <activity android:name=".todoMain"></activity>
+        <activity android:name=".EditTodoActivity" />
+        <activity android:name=".result_Bmi" />
+        <activity android:name=".bmiMain" />
+        <activity android:name=".stopMain" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Calender"/>
+        <activity android:name=".Calender" />
     </application>
 
 </manifest>
