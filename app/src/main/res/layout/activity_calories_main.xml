@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:text="오늘의 영양"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="아침"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="점심"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText1" />
+
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="저녁"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText2" />
+
+    <EditText
+        android:id="@+id/EditText4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="간식1"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText3" />
+
+    <EditText
+        android:id="@+id/EditText5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:hint="간식2"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditText4" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="정리하기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kcalNum5" />
+
+    <EditText
+        android:id="@+id/kcalNum1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:hint="kcal"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/kcalNum2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:hint="kcal"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kcalNum1" />
+
+    <EditText
+        android:id="@+id/kcalNum3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:hint="kcal"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kcalNum2" />
+
+    <EditText
+        android:id="@+id/kcalNum5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:hint="kcal"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kcalNum4" />
+
+    <EditText
+        android:id="@+id/kcalNum4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:hint="kcal"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kcalNum3" />
+
+    <TextView
+        android:id="@+id/ResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="정리하기를 통해 하루 동안의 영양 섭취 기록을 평가하세요."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:numStars="3"
+        android:stepSize="1"
+        app:layout_constraintEnd_toStartOf="@+id/kcalNum1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="32dp"
+        android:numStars="3"
+        android:stepSize="1"
+        app:layout_constraintEnd_toStartOf="@+id/kcalNum2"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <RatingBar
+        android:id="@+id/ratingBar4"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="32dp"
+        android:numStars="3"
+        android:stepSize="1"
+        app:layout_constraintEnd_toStartOf="@+id/kcalNum4"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar3" />
+
+    <RatingBar
+        android:id="@+id/ratingBar5"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="32dp"
+        android:numStars="3"
+        android:stepSize="1"
+        app:layout_constraintEnd_toStartOf="@+id/kcalNum5"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar4" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="32dp"
+        android:numStars="3"
+        android:stepSize="1"
+        app:layout_constraintEnd_toStartOf="@+id/kcalNum3"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar2" />
+
+    <RatingBar
+        android:id="@+id/ratingBar6"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:numStars="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ResultTextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

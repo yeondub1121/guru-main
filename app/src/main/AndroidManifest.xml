@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/ic_launcher_heart_background"
         android:supportsRtl="true"
         android:theme="@style/Theme.Main">
-        <activity android:name=".todoMain"></activity>
+        <activity android:name=".caloriesMain"></activity>
+        <activity android:name=".todoMain" />
         <activity android:name=".result_Bmi" />
         <activity android:name=".bmiMain" />
         <activity android:name=".stopMain" />

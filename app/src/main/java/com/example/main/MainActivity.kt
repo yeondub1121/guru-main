@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var stopwatchbutton: Button
     lateinit var bmibutton:Button
     lateinit var todobutton:Button
+    lateinit var foodbutton:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,6 +36,11 @@ class MainActivity : AppCompatActivity() {
         todobutton=findViewById(R.id.todobutton)
         todobutton.setOnClickListener{
             var intent=Intent(this, todoMain::class.java)
+            startActivity(intent)
+        }
+        foodbutton=findViewById(R.id.foodbutton)
+        foodbutton.setOnClickListener{
+            var intent=Intent(this,caloriesMain::class.java)
             startActivity(intent)
         }
     }
