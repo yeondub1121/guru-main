@@ -39,7 +39,7 @@ class caloriesMain : AppCompatActivity() {
     @SuppressLint("MissingInflatedId", "SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_calories_main)
 
         Kcal1 = findViewById(R.id.kcalNum1)
         Kcal2 = findViewById(R.id.kcalNum2)
