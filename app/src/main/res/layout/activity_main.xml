@@ -6,53 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
+    <ImageButton
         android:id="@+id/calenderbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="93dp"
+        android:layout_height="98dp"
         android:layout_marginTop="156dp"
         android:layout_marginEnd="268dp"
-        android:text="캘린더"
+        android:background="@drawable/ic_baseline_calendar_month_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/stopwatchbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="91dp"
+        android:layout_height="95dp"
         android:layout_marginTop="156dp"
-        android:layout_marginEnd="36dp"
-        android:text="STOP WATCH"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/ic_baseline_access_alarms_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/bmibutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="93dp"
+        android:layout_height="80dp"
         android:layout_marginTop="296dp"
         android:layout_marginEnd="268dp"
-        android:text="BMI"
+        android:background="@drawable/ic_baseline_accessibility_new_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/todobutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="101dp"
         android:layout_marginTop="296dp"
-        android:layout_marginEnd="64dp"
-        android:text="TODO"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/ic_baseline_format_list_bulleted_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/foodbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
-        android:layout_marginEnd="164dp"
-        android:text="식단"
+        android:layout_width="98dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="156dp"
+        android:background="@drawable/ic_baseline_flatware_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
